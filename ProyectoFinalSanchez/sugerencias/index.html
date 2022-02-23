@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/toast/style.css">
+    <title>Sugerencias</title>   
+  </head>
+  <body>
+      <nav class="nav-bar">
+        <a href="../index.html">Volver al Inicio</a>
+      </nav>
+      <div class="titulo">
+        <h1>Sugerencias de cervezas</h1>
+      </div>
+        <form class="form" action="javascript:agregarSugerencias()">
+          <label for="cerveza">Estilo de cerveza:</label>
+          <input class="control" id="cerveza" />
+            
+          <label for="descripcion">Detalles:</label>
+          <input class="control" id="descripcion" />
+            
+          <button id="btn-sug">Agregar</button>
+        </form>
+        <ul id="lista" class="card-list"></ul>
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+      <script src="index.js"></script>
+      <script src="/toast/toastMessage.js"></script>
+  </body>
+</html>

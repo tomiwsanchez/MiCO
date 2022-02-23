@@ -1,0 +1,83 @@
+body{
+  background: url(/fotos/fonoBody.jpg)  
+}
+.img-beer{
+  width: 30%;
+}
+.card {
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  width: 30%;
+  align-items: center;
+  overflow: hidden;
+  background-size: over;
+  display: block;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#div-1 {
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  text-align: center;
+  margin-left: 300px;
+  justify-content: center;
+}
+
+.logo{
+  float: left;
+  padding: 10px;
+}
+.logo img{
+  height: 70px;
+}
+
+.leftBar {
+  color: #ffffff;
+  border: 5px solid #696868af;
+  position: absolute;
+  height: 60%;
+  top: 50%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin-left: 20px;
+  z-index: auto;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.shopCard{
+  font-size: 25px;
+}
+
+#sale{
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 770px){
+  
+  #div-1{
+    margin-left: auto;
+  }
+
+  .leftBar {
+    color: #ffffff;
+    border: 5px solid #696868af;
+    position: relative;
+    width: 300px;
+    margin:auto;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+}
